@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A7036EFA-9E7A-41BF-B97B-FE579B7228F6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>eHairdresserSalonFare.WinUI</RootNamespace>
+    <AssemblyName>eHairdresserSalonFare.WinUI</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ClosedXML, Version=0.95.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ClosedXML.0.95.4\lib\net46\ClosedXML.dll</HintPath>
+    </Reference>
+    <Reference Include="DocumentFormat.OpenXml, Version=2.7.2.0, Culture=neutral, PublicKeyToken=8fb06cb64d019a17, processorArchitecture=MSIL">
+      <HintPath>..\packages\DocumentFormat.OpenXml.2.7.2\lib\net46\DocumentFormat.OpenXml.dll</HintPath>
+    </Reference>
+    <Reference Include="ExcelNumberFormat, Version=1.0.10.0, Culture=neutral, PublicKeyToken=23c6f5d73be07eca, processorArchitecture=MSIL">
+      <HintPath>..\packages\ExcelNumberFormat.1.0.10\lib\net20\ExcelNumberFormat.dll</HintPath>
+    </Reference>
+    <Reference Include="Flurl, Version=3.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Flurl.3.0.1\lib\net461\Flurl.dll</HintPath>
+    </Reference>
+    <Reference Include="Flurl.Http, Version=3.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Flurl.Http.3.0.1\lib\net461\Flurl.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.IO.FileSystem.Primitives, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.FileSystem.Primitives.4.0.1\lib\net46\System.IO.FileSystem.Primitives.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.IO.Packaging, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.Packaging.4.0.0\lib\net46\System.IO.Packaging.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="APIServices\BaseAPIService.cs" />
+    <Compile Include="APIServices\HairdresserHairstyleAPIService.cs" />
+    <Compile Include="APIServices\UserAPIService.cs" />
+    <Compile Include="Forms\Associate\frmAssociateAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Associate\frmAssociateAdd.Designer.cs">
+      <DependentUpon>frmAssociateAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Associate\frmAssociateData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Associate\frmAssociateData.Designer.cs">
+      <DependentUpon>frmAssociateData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Client\frmClientsData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Client\frmClientsData.Designer.cs">
+      <DependentUpon>frmClientsData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\HairdresserSalon\frmHairdresserSalonData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\HairdresserSalon\frmHairdresserSalonData.Designer.cs">
+      <DependentUpon>frmHairdresserSalonData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\HairdresserSalon\frmHairdresserSalonDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\HairdresserSalon\frmHairdresserSalonDetails.Designer.cs">
+      <DependentUpon>frmHairdresserSalonDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Hairdresser\frmHairdresserAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Hairdresser\frmHairdresserAdd.Designer.cs">
+      <DependentUpon>frmHairdresserAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Hairdresser\frmHairdresserData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Hairdresser\frmHairdresserData.Designer.cs">
+      <DependentUpon>frmHairdresserData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Hairstyle\frmHairstyleAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Hairstyle\frmHairstyleAdd.Designer.cs">
+      <DependentUpon>frmHairstyleAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Hairstyle\frmHairstyleData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Hairstyle\frmHairstyleData.Designer.cs">
+      <DependentUpon>frmHairstyleData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Notification\frmNotificationAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Notification\frmNotificationAdd.Designer.cs">
+      <DependentUpon>frmNotificationAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Notification\frmNotificationData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Notification\frmNotificationData.Designer.cs">
+      <DependentUpon>frmNotificationData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Payment\frmPaymentData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Payment\frmPaymentData.Designer.cs">
+      <DependentUpon>frmPaymentData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Sponsor\frmSponsorAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Sponsor\frmSponsorAdd.Designer.cs">
+      <DependentUpon>frmSponsorAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Sponsor\frmSponsorData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Sponsor\frmSponsorData.Designer.cs">
+      <DependentUpon>frmSponsorData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login\frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login\frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm\frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm\frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reports\rptHairdresserMostEarnedMoney.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\rptHairdresserMostEarnedMoney.Designer.cs">
+      <DependentUpon>rptHairdresserMostEarnedMoney.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptMostSalesService.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\rptMostSalesService.Designer.cs">
+      <DependentUpon>rptMostSalesService.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Forms\Associate\frmAssociateAdd.resx">
+      <DependentUpon>frmAssociateAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Associate\frmAssociateData.resx">
+      <DependentUpon>frmAssociateData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Client\frmClientsData.resx">
+      <DependentUpon>frmClientsData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\HairdresserSalon\frmHairdresserSalonData.resx">
+      <DependentUpon>frmHairdresserSalonData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\HairdresserSalon\frmHairdresserSalonDetails.resx">
+      <DependentUpon>frmHairdresserSalonDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Hairdresser\frmHairdresserAdd.resx">
+      <DependentUpon>frmHairdresserAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Hairdresser\frmHairdresserData.resx">
+      <DependentUpon>frmHairdresserData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Hairstyle\frmHairstyleAdd.resx">
+      <DependentUpon>frmHairstyleAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Hairstyle\frmHairstyleData.resx">
+      <DependentUpon>frmHairstyleData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Notification\frmNotificationAdd.resx">
+      <DependentUpon>frmNotificationAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Notification\frmNotificationData.resx">
+      <DependentUpon>frmNotificationData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Payment\frmPaymentData.resx">
+      <DependentUpon>frmPaymentData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Sponsor\frmSponsorAdd.resx">
+      <DependentUpon>frmSponsorAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Sponsor\frmSponsorData.resx">
+      <DependentUpon>frmSponsorData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login\frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm\frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Reports\rptHairdresserMostEarnedMoney.resx">
+      <DependentUpon>rptHairdresserMostEarnedMoney.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptMostSalesService.resx">
+      <DependentUpon>rptMostSalesService.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\eHairdresserSalonFare.Model\eHairdresserSalonFare.Model.csproj">
+      <Project>{3b862b19-f804-46ad-8843-7a0153638ae5}</Project>
+      <Name>eHairdresserSalonFare.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\logo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\default-pic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>9</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\default-hairstyle.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

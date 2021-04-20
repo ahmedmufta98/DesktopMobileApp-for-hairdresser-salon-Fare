@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace eHairdresserSalonFareBugojno.Database
 {
@@ -8,7 +9,7 @@ namespace eHairdresserSalonFareBugojno.Database
         public int Id { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        public int Age { get; set; }
+        public DateTime BirthDate { get; set; }
         public string PersonalIdentificationNumber { get; set; }
         public string Phone { get; set; }
         public string Email { get; set; }
@@ -16,5 +17,7 @@ namespace eHairdresserSalonFareBugojno.Database
         public byte[] Image { get; set; }
         public int HairdresserSalonId { get; set; }
         public HairdresserSalon HairdresserSalon { get; set; }
+        public bool Available { get; set; }
+        public Booking Booking { get; set; }
     }
 }

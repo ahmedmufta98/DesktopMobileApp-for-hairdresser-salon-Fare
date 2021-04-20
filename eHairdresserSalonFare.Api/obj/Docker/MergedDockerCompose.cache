@@ -1,0 +1,26 @@
+services:
+  ehairdressersalonfare.api:
+    build:
+      context: C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api
+      dockerfile: eHairdresserSalonFare.Api/Dockerfile
+    container_name: api
+    depends_on:
+      mssqldb:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: ehairdressersalonfareapi
+    ports:
+    - published: 63982
+      target: 80
+    - target: 80
+  mssqldb:
+    container_name: dbserver
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_SA_Password: Admin1234!
+    image: mcr.microsoft.com/mssql/server
+    ports:
+    - published: 11433
+      target: 1433
+version: '3.4'

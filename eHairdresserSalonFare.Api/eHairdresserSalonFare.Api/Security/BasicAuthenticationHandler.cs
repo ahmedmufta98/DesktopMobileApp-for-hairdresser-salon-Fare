@@ -12,7 +12,6 @@ using System.Threading.Tasks;
 using System.Collections.Generic;
 using System.Linq;
 
-
 namespace eHairdresserSalonFare.Api.Security
 {
     public class BasicAuthenticationHandler : AuthenticationHandler<AuthenticationSchemeOptions>
@@ -51,8 +50,7 @@ namespace eHairdresserSalonFare.Api.Security
                 return AuthenticateResult.Fail("Invalid Username or Password");
 
             var claims = new List<Claim> {
-                new Claim(ClaimTypes.NameIdentifier, user.Username),
-                new Claim(ClaimTypes.Name, user.FirstName),
+                new Claim(ClaimTypes.NameIdentifier, user.Username)
             };
             var role = _context.Users.Where(k => k.Id == user.Id).Select(k => k.Role.Description).SingleOrDefault();
 

@@ -10,3 +10,12 @@ C:\Users\ZZO5\Desktop\MobileAndDesktopAppFare\eHairdresserSalonFare.Api\eHairdre
 C:\Users\ZZO5\Desktop\MobileAndDesktopAppFare\eHairdresserSalonFare.Api\eHairdresserSalonFare.Model\bin\Debug\netstandard2.0\Newtonsoft.Json.dll
 C:\Users\ZZO5\Desktop\MobileAndDesktopAppFare\eHairdresserSalonFare.Api\eHairdresserSalonFare.Model\bin\Debug\netstandard2.0\Newtonsoft.Json.xml
 C:\Users\ZZO5\Desktop\MobileAndDesktopAppFare\eHairdresserSalonFare.Api\eHairdresserSalonFare.Model\obj\Debug\netstandard2.0\eHairdresserSalonFare.Model.csproj.CopyComplete
+C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.Model\obj\Debug\netstandard2.0\eHairdresserSalonFare.Model.csprojAssemblyReference.cache
+C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.Model\obj\Debug\netstandard2.0\eHairdresserSalonFare.Model.csproj.CoreCompileInputs.cache
+C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.Model\obj\Debug\netstandard2.0\eHairdresserSalonFare.Model.AssemblyInfoInputs.cache
+C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.Model\obj\Debug\netstandard2.0\eHairdresserSalonFare.Model.AssemblyInfo.cs
+C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.Model\obj\Debug\netstandard2.0\eHairdresserSalonFare.Model.dll
+C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.Model\obj\Debug\netstandard2.0\eHairdresserSalonFare.Model.pdb
+C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.Model\bin\Debug\netstandard2.0\eHairdresserSalonFare.Model.deps.json
+C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.Model\bin\Debug\netstandard2.0\eHairdresserSalonFare.Model.dll
+C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.Model\bin\Debug\netstandard2.0\eHairdresserSalonFare.Model.pdb

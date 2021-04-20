@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:eHairdresserSalonFare.MobileUI.ViewModels"
+             xmlns:converters="clr-namespace:eHairdresserSalonFare.MobileUI.Converters"
+             x:Class="eHairdresserSalonFare.MobileUI.Views.HairstyleDetailsPage">
+    <ContentPage.BindingContext>
+        <vm:HairstyleDetailsViewModel />
+    </ContentPage.BindingContext>
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converters:ImageConverter x:Key="imgConv"></converters:ImageConverter>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout Padding="10,10,10,10">
+            <Label FontSize="Large" HorizontalOptions="Center" Text="Hairstyle details"></Label>
+
+            <StackLayout>
+                <Image WidthRequest="150" HeightRequest="150" Source="{Binding Image,Converter={StaticResource imgConv}}"></Image>
+            </StackLayout>
+            
+            <Label Text="Hairstyle"></Label>
+            <Entry Text="{Binding HairstyleName}" IsReadOnly="True" BackgroundColor="LightGray"></Entry>
+
+            <Label Text="Price (KM)"></Label>
+            <Entry Text="{Binding Price}" IsReadOnly="True" BackgroundColor="LightGray"></Entry>
+
+            <Label Text="Description"></Label>
+            <Editor Text="{Binding Description }" IsReadOnly="True" BackgroundColor="LightGray"></Editor>
+
+            <Label Text="Duration of production"></Label>
+            <Entry Text="{Binding DurationOfProduction}" IsReadOnly="True" BackgroundColor="LightGray"></Entry>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

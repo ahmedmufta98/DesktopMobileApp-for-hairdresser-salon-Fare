@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ZZO5\\Desktop\\MobileAndDesktopAppFare\\eHairdresserSalonFare.Api\\eHairdresserSalonFare.Model\\eHairdresserSalonFare.Model.csproj": {}
+    "C:\\Users\\ZZO5\\Desktop\\Seminarski rad\\proba\\eHairdresserSalonFare.Api\\eHairdresserSalonFare.Model\\eHairdresserSalonFare.Model.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ZZO5\\Desktop\\MobileAndDesktopAppFare\\eHairdresserSalonFare.Api\\eHairdresserSalonFare.Model\\eHairdresserSalonFare.Model.csproj": {
+    "C:\\Users\\ZZO5\\Desktop\\Seminarski rad\\proba\\eHairdresserSalonFare.Api\\eHairdresserSalonFare.Model\\eHairdresserSalonFare.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ZZO5\\Desktop\\MobileAndDesktopAppFare\\eHairdresserSalonFare.Api\\eHairdresserSalonFare.Model\\eHairdresserSalonFare.Model.csproj",
+        "projectUniqueName": "C:\\Users\\ZZO5\\Desktop\\Seminarski rad\\proba\\eHairdresserSalonFare.Api\\eHairdresserSalonFare.Model\\eHairdresserSalonFare.Model.csproj",
         "projectName": "eHairdresserSalonFare.Model",
-        "projectPath": "C:\\Users\\ZZO5\\Desktop\\MobileAndDesktopAppFare\\eHairdresserSalonFare.Api\\eHairdresserSalonFare.Model\\eHairdresserSalonFare.Model.csproj",
+        "projectPath": "C:\\Users\\ZZO5\\Desktop\\Seminarski rad\\proba\\eHairdresserSalonFare.Api\\eHairdresserSalonFare.Model\\eHairdresserSalonFare.Model.csproj",
         "packagesPath": "C:\\Users\\ZZO5\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ZZO5\\Desktop\\MobileAndDesktopAppFare\\eHairdresserSalonFare.Api\\eHairdresserSalonFare.Model\\obj\\",
+        "outputPath": "C:\\Users\\ZZO5\\Desktop\\Seminarski rad\\proba\\eHairdresserSalonFare.Api\\eHairdresserSalonFare.Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
@@ -31,7 +31,6 @@
         },
         "frameworks": {
           "netstandard2.0": {
-            "targetAlias": "netstandard2.0",
             "projectReferences": {}
           }
         },
@@ -43,26 +42,23 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "targetAlias": "netstandard2.0",
           "dependencies": {
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
             }
           },
           "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
+            "net461"
           ],
           "assetTargetFallback": true,
-          "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "warn": true
         }
       }
     }

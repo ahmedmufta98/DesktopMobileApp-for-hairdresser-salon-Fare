@@ -2,6 +2,6 @@
 {
     public class HairstyleSearchRequest
     {
-        public string Name { get; set; }
+        public string HairstyleName { get; set; }
     }
 }

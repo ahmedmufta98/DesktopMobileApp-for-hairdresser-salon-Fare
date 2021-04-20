@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:eHairdresserSalonFare.MobileUI.ViewModels"
+             xmlns:converters="clr-namespace:eHairdresserSalonFare.MobileUI.Converters"
+             x:Class="eHairdresserSalonFare.MobileUI.Views.SponsorDetailsPage">
+    <ContentPage.BindingContext>
+        <vm:SponsorDetailViewModel />
+    </ContentPage.BindingContext>
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converters:ImageConverter x:Key="imgConv"></converters:ImageConverter>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="FillAndExpand" Padding="10" VerticalOptions="CenterAndExpand">
+            <Label FontSize="Large" HorizontalOptions="Center" Text="Sponsor details"></Label>
+
+            <StackLayout>
+                <Image WidthRequest="280" HeightRequest="280" Source="{Binding Logo,Converter={StaticResource imgConv}}"></Image>
+            </StackLayout>
+            
+            <Label FontSize="Large">Name</Label>
+            <Entry Text="{Binding SponsorName}" BackgroundColor="LightGray"></Entry>
+
+            <Label FontSize="Large">About</Label>
+            <Entry Text="{Binding About}" IsReadOnly="True" BackgroundColor="LightGray"></Entry>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -19,12 +19,10 @@ namespace eHairdresserSalonFare.Api.Repository
 
         public override IEnumerable<Model.Payment> Get(PaymentSearchRequest request)
         {
-            var query = _context.Payments.AsQueryable();
+            if (request.UserId == 0)
+                request.UserId = null;
 
-            if (request.PaymentDate!=null)
-            {
-                query = query.Where(x => x.PaymentDate == request.PaymentDate);
-            }
+            var query = _context.Payments.AsQueryable();
 
             if (request.UserId != null)
             {

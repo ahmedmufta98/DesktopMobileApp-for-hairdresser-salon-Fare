@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:eHairdresserSalonFare.MobileUI.ViewModels"
+             xmlns:converters="clr-namespace:eHairdresserSalonFare.MobileUI.Converters"
+             x:Class="eHairdresserSalonFare.MobileUI.Views.RatingHairdressersPage">
+    <ContentPage.BindingContext>
+        <vm:HairdresserRatingViewModel />
+    </ContentPage.BindingContext>
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converters:ImageConverter x:Key="imgConv"></converters:ImageConverter>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Pick your hairdresser you want to rate!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" FontSize="Large" />
+
+            <ListView ItemsSource="{Binding _hairdressersForRatingList}" ItemTapped="ListView_ItemTapped" >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Padding="10" Orientation="Horizontal">
+                                <StackLayout>
+                                    <Image WidthRequest="300" HeightRequest="300" Source="{Binding Image,Converter={StaticResource imgConv}}"></Image>
+                                </StackLayout>
+
+                                <StackLayout Orientation="Vertical" Grid.Row="1">
+
+                                    <Label Text="{Binding FirstName}" 
+									LineBreakMode="NoWrap" 
+									Style="{DynamicResource ListItemTextStyle}" 
+									FontSize="16" />
+
+                                    <Label Text="{Binding LastName}" 
+									LineBreakMode="NoWrap" 
+									Style="{DynamicResource ListItemTextStyle}" 
+									FontSize="16" />
+
+                                </StackLayout>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

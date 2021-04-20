@@ -12,5 +12,6 @@ namespace eHairdresserSalonFare.Api.Database
         public float Amount { get; set; }
         public int UserId { get; set; }
         public User User { get; set; }
+        public string BankCardNumber { get; set; }
     }
 }

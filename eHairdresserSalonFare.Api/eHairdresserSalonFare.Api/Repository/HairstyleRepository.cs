@@ -22,9 +22,9 @@ namespace eHairdresserSalonFare.Api.Repository
         {
             var query = _context.Hairstyles.AsQueryable();
 
-            if (!string.IsNullOrWhiteSpace(request?.Name))
+            if (!string.IsNullOrWhiteSpace(request?.HairstyleName))
             {
-                query = query.Where(x => x.Name == request.Name);
+                query = query.Where(x => x.HairstyleName.Contains(request.HairstyleName));
             }
 
             return _mapper.Map<IEnumerable<Model.Hairstyle>>(query.ToList());

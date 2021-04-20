@@ -1,0 +1,7 @@
+C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\bin\Debug\eHairdresserSalonFare.Api.dll
+C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\bin\Debug\eHairdresserSalonFare.Model.dll
+C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\bin\Debug\eHairdresserSalonFare.Api.pdb
+C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\bin\Debug\eHairdresserSalonFare.Model.pdb
+C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\obj\Debug\docker-compose.dcprojAssemblyReference.cache
+C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\obj\Debug\docker-compose.dcproj.CopyComplete

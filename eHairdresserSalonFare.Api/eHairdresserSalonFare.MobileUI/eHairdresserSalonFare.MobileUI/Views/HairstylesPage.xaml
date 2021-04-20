@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:eHairdresserSalonFare.MobileUI.ViewModels"
+             xmlns:converters="clr-namespace:eHairdresserSalonFare.MobileUI.Converters"
+             x:Class="eHairdresserSalonFare.MobileUI.Views.HairstylesPage">
+    <ContentPage.BindingContext>
+        <vm:HairstyleViewModel />
+    </ContentPage.BindingContext>
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converters:ImageConverter x:Key="imgConv"></converters:ImageConverter>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout Padding="10">
+            <Label FontSize="Large" HorizontalOptions="Center" Text="Hairstyles in our offer"></Label>
+            <Label FontSize="Large" HorizontalOptions="Center" Text="Filter by hairdressers first or last name"></Label>
+
+            <Entry Placeholder="Hairstyle name" Text="{Binding HairstyleName}"></Entry>
+            <Button Text="Search" HorizontalOptions="Center" Command="{Binding SearchHairstyle}" BackgroundColor="DodgerBlue" TextColor="White" Font="17"></Button>
+
+            <ListView ItemsSource="{Binding _hairstyles}" ItemTapped="ListView_ItemTapped" >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Padding="10" Orientation="Horizontal">
+                                <StackLayout>
+                                    <Image WidthRequest="300" HeightRequest="300" Source="{Binding Image,Converter={StaticResource imgConv}}"></Image>
+                                </StackLayout>
+
+                                <StackLayout Orientation="Vertical" Grid.Row="1">
+
+                                    <Label Text="{Binding HairstyleName}" 
+									LineBreakMode="NoWrap" 
+									Style="{DynamicResource ListItemTextStyle}" 
+									FontSize="16" />
+
+                                    <Label Text="{Binding Price}" 
+									LineBreakMode="NoWrap" 
+									Style="{DynamicResource ListItemTextStyle}" 
+									FontSize="16" />
+
+                                </StackLayout>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

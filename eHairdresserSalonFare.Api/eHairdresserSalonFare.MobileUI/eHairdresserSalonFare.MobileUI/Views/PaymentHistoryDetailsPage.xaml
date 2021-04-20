@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:eHairdresserSalonFare.MobileUI.ViewModels"
+             x:Class="eHairdresserSalonFare.MobileUI.Views.PaymentHistoryDetailsPage">
+    <ContentPage.BindingContext>
+        <vm:PaymentHistoryDetailsViewModel />
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="FillAndExpand" Padding="10" VerticalOptions="CenterAndExpand">
+            <Label FontSize="Large" HorizontalOptions="Center" Text="Payment details"></Label>
+
+            <Label Text="Client:"></Label>
+            <Entry Text="{Binding Client}" IsReadOnly="True" BackgroundColor="LightGray"></Entry>
+
+            <Label Text="Amount (KM):"></Label>
+            <Entry Text="{Binding Amount}" IsReadOnly="True" BackgroundColor="LightGray"></Entry>
+
+            <Label Text="Date of payment:"></Label>
+            <Entry Text="{Binding PaymentDate }" IsReadOnly="True" BackgroundColor="LightGray"></Entry>
+
+            <Label Text="Bank card number:"></Label>
+            <Entry Text="{Binding BankCardNumber}" IsReadOnly="True" BackgroundColor="LightGray"></Entry>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

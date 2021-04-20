@@ -1,0 +1,1 @@
+C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\eHairdresserSalonFare.MobileUI.UWP.csproj;x86

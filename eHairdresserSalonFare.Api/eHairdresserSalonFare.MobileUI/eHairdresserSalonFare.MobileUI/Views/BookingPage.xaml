@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:eHairdresserSalonFare.MobileUI.ViewModels"
+             xmlns:converters="clr-namespace:eHairdresserSalonFare.MobileUI.Converters"
+             x:Class="eHairdresserSalonFare.MobileUI.Views.BookingPage">
+    <ContentPage.BindingContext>
+        <vm:BookingViewModel />
+    </ContentPage.BindingContext>
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converters:ImageConverter x:Key="imgConv"></converters:ImageConverter>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <ScrollView>
+           <StackLayout HorizontalOptions="FillAndExpand" Padding="10" VerticalOptions="CenterAndExpand">
+            <Label FontSize="Large" HorizontalOptions="Center" Text="Add your booking (08-16)"></Label>
+
+            <StackLayout>
+                <Image WidthRequest="150" HeightRequest="150" Source="{Binding Image,Converter={StaticResource imgConv}}"></Image>
+            </StackLayout>
+            <Label FontSize="Small">First name</Label>
+                <Entry IsReadOnly="True" Text="{Binding FirstName}" BackgroundColor="LightGray"></Entry>
+            <Label FontSize="Small">Last name</Label>
+                <Entry IsReadOnly="True" Text="{Binding LastName}" BackgroundColor="LightGray"></Entry>
+            <Label FontSize="Small">Email</Label>
+                <Entry IsReadOnly="True" Text="{Binding Email}" BackgroundColor="LightGray"></Entry>
+            <Label FontSize="Small">Phone</Label>
+                <Entry IsReadOnly="True" Text="{Binding Phone}" BackgroundColor="LightGray"></Entry>
+            <Picker x:Name="picker" Title="Select hairstyle" FontSize="Small"
+             ItemsSource="{Binding _hairstyleList}" SelectedItem="{Binding SelectedHairstyle}" ItemDisplayBinding="{Binding HairstyleName}" >
+            </Picker>
+
+            <Label FontSize="Small">Booking date</Label>
+            <DatePicker Date="{Binding BookingDate}"></DatePicker>
+            <Label FontSize="Small">Booking time</Label>
+            <TimePicker Time="{Binding BookingTime}" Format="hh:mm"></TimePicker>
+
+                <Button Text="Add booking" Command="{Binding BookingCommand}" HorizontalOptions="Center" BackgroundColor="DodgerBlue" TextColor="White"></Button>
+
+                <Label FontSize="Large" HorizontalOptions="Center" Text="Hairdressers with similar ratings"></Label>
+                <ListView HeightRequest="200" ItemsSource="{Binding _recommendedHairdressersList}" BackgroundColor="LightGray" ItemTapped="ListView_ItemTapped">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Padding="10" Orientation="Horizontal">
+                                <StackLayout>
+                                    <Image WidthRequest="200" HeightRequest="200" Source="{Binding Image,Converter={StaticResource imgConv}}"></Image>
+                                </StackLayout>
+                                <StackLayout Orientation="Vertical">
+
+                                    <StackLayout Grid.Row="1" Orientation="Horizontal" Spacing="6">
+                                        <Label Text="Instructor name : "
+												Style="{DynamicResource LargeLabel}" />
+                                        <Label Text="{Binding FirstName} " 
+												LineBreakMode="NoWrap" 
+												Style="{DynamicResource ListItemTextStyle}" 
+												FontSize="15" />
+                                    </StackLayout>
+
+                                    <StackLayout Grid.Row="1" Orientation="Horizontal" Spacing="6">
+                                        <Label Text="Instructor last name : "
+												Style="{DynamicResource LargeLabel}" />
+                                        <Label Text="{Binding LastName} " 
+												LineBreakMode="NoWrap" 
+												Style="{DynamicResource ListItemTextStyle}" 
+												FontSize="15" />
+                                    </StackLayout>
+
+                                    <StackLayout Grid.Row="1" Orientation="Horizontal" Spacing="6">
+                                        <Label Text="Phone : "
+												Style="{DynamicResource LargeLabel}" />
+                                        <Label Text="{Binding Phone} " 
+												LineBreakMode="NoWrap" 
+												Style="{DynamicResource ListItemTextStyle}" 
+												FontSize="15" />
+                                    </StackLayout>
+
+                                    <StackLayout Grid.Row="1" Orientation="Horizontal" Spacing="6">
+                                        <Label Text="Email : "
+												Style="{DynamicResource LargeLabel}" />
+                                        <Label Text="{Binding Email} " 
+												LineBreakMode="NoWrap" 
+												Style="{DynamicResource ListItemTextStyle}" 
+												FontSize="15" />
+                                    </StackLayout>
+                                </StackLayout>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+       </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

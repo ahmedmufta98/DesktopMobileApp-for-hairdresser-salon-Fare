@@ -1,8 +1,7 @@
 ﻿using AutoMapper;
-using eHairdresserSalonFare.Api.Filters;
+using eHairdresserSalonFare.Api.Database;
 using eHairdresserSalonFare.Api.IRepository;
 using eHairdresserSalonFare.Model.Requests.User;
-using eHairdresserSalonFareBugojno.Database;
 using eHairdresserSalonFareBugojno.DBContext;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -52,7 +51,7 @@ namespace eHairdresserSalonFare.Api.Repository
                 var newHash = GenerateHash(user.PasswordSalt, password);
                 if (newHash == user.PasswordHash)
                 {
-                    return _mapper.Map<Model.User>(user);
+                     return _mapper.Map<Model.User>(user);
                 }
             }
             return null;
@@ -64,14 +63,14 @@ namespace eHairdresserSalonFare.Api.Repository
 
             if (entity == null)
             {
-                throw new UserException("Invalid username or password");
+                return null;
             }
 
             var hash = GenerateHash(entity.PasswordSalt, request.Password);
 
             if (hash != entity.PasswordHash)
             {
-                throw new UserException("Invalid username or password");
+                return null;
             }
 
             return _mapper.Map<Model.User>(entity);
@@ -98,7 +97,7 @@ namespace eHairdresserSalonFare.Api.Repository
 
         public Model.User Insert(UserUpsertRequest model)
         {
-            User user = _mapper.Map<User>(model);
+            eHairdresserSalonFareBugojno.Database.User user = _mapper.Map<eHairdresserSalonFareBugojno.Database.User>(model);
 
             _context.Add(user);
 
@@ -120,22 +119,22 @@ namespace eHairdresserSalonFare.Api.Repository
 
             if (!string.IsNullOrWhiteSpace(request?.FirstName))
             {
-                query = query.Where(x => x.FirstName == request.FirstName);
+                query = query.Where(x => x.FirstName.Contains(request.FirstName));
             }
 
             if (!string.IsNullOrWhiteSpace(request?.LastName))
             {
-                query = query.Where(x => x.LastName == request.LastName);
+                query = query.Where(x => x.LastName.Contains(request.LastName));
             }
 
             if (!string.IsNullOrWhiteSpace(request?.Phone))
             {
-                query = query.Where(x => x.Phone == request.Phone);
+                query = query.Where(x => x.Phone.Contains(request.Phone));
             }
 
             if (!string.IsNullOrWhiteSpace(request?.Email))
             {
-                query = query.Where(x => x.Email == request.Email);
+                query = query.Where(x => x.Email.Contains(request.Email));
             }
 
             return _mapper.Map<IEnumerable<Model.User>>(query.Where(x => x.RoleId == 2).ToList());
@@ -164,7 +163,7 @@ namespace eHairdresserSalonFare.Api.Repository
 
         public Model.User Delete(int id)
         {
-            User user = _context.Users.Find(id);
+            eHairdresserSalonFareBugojno.Database.User user = _context.Users.Find(id);
 
             if (user != null)
             {
@@ -173,6 +172,28 @@ namespace eHairdresserSalonFare.Api.Repository
             }
 
             return _mapper.Map<Model.User>(user);
+        }
+
+        public Model.User GetByUsername(UserLoginRequest request)
+        {
+            return _mapper.Map<Model.User>(_context.Users.FirstOrDefault(u => u.Username == request.Username && u.RoleId==1));
+        }
+
+        public IEnumerable<Model.User> GetClients()
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<Model.Payment> GetPaymentsOfUser(int userId)
+        {
+            List<Payment> payments = _context.Payments.Where(p => p.UserId == userId).ToList();
+
+            if (payments.Count == 0)
+            {
+                return null;
+            }
+
+            return _mapper.Map<List<Model.Payment>>(payments);
         }
     }
 }

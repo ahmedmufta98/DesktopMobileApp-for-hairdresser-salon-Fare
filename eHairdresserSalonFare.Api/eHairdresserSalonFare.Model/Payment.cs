@@ -8,5 +8,6 @@ namespace eHairdresserSalonFare.Model
         public DateTime PaymentDate { get; set; }
         public float Amount { get; set; }
         public int UserId { get; set; }
+        public string BankCardNumber { get; set; }
     }
 }

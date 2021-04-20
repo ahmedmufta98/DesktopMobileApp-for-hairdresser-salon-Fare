@@ -13,5 +13,7 @@ namespace eHairdresserSalonFare.Api.IRepository
         Model.User Login(UserLoginRequest request);
         Model.User Register(UserUpsertRequest request);
         Model.User Authenticate(string username, string password);
+        Model.User GetByUsername(UserLoginRequest request);
+        List<Model.Payment> GetPaymentsOfUser(int userId);
     }
 }

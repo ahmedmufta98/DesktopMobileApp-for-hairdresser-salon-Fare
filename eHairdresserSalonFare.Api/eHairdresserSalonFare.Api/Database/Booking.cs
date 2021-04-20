@@ -13,6 +13,7 @@ namespace eHairdresserSalonFareBugojno.Database
         public Hairstyle Hairstyle { get; set; }
         public int UserId { get; set; }
         public User User { get; set; }
-        public DateTime ReservationDate { get; set; }
+        public DateTime StartDate { get; set; }
+        public DateTime EndDate { get; set; }
     }
 }

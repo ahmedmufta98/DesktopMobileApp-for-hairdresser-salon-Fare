@@ -24,22 +24,22 @@ namespace eHairdresserSalonFare.Api.Repository
 
             if (!string.IsNullOrWhiteSpace(request?.FirstName))
             {
-                query = query.Where(x => x.FirstName == request.FirstName);
+                query = query.Where(x => x.FirstName.Contains(request.FirstName));
             }
 
             if (!string.IsNullOrWhiteSpace(request?.LastName))
             {
-                query = query.Where(x => x.LastName == request.LastName);
+                query = query.Where(x => x.LastName.Contains(request.LastName));
             }
 
             if (!string.IsNullOrWhiteSpace(request?.Phone))
             {
-                query = query.Where(x => x.Phone == request.Phone);
+                query = query.Where(x => x.Phone.Contains(request.Phone));
             }
 
             if (!string.IsNullOrWhiteSpace(request?.Email))
             {
-                query = query.Where(x => x.Email == request.Email);
+                query = query.Where(x => x.Email.Contains(request.Email));
             }
 
             return _mapper.Map<IEnumerable<Model.Hairdresser>>(query.ToList());

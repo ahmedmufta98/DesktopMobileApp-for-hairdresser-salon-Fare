@@ -1,6 +1,5 @@
 ﻿using eHairdresserSalonFare.Api.IRepository;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
 using System;
 
 namespace eHairdresserSalonFare.Api.Controllers
@@ -10,11 +9,9 @@ namespace eHairdresserSalonFare.Api.Controllers
     public class BaseCRUDController<T, TSearch, TInsert, TUpdate> : ControllerBase
     {
         private readonly IBaseCRUDRepository<T, TSearch, TInsert, TUpdate> _repository = null;
-        protected ILogger _logger;
-        public BaseCRUDController(IBaseCRUDRepository<T, TSearch, TInsert, TUpdate> repository, ILogger<BaseCRUDController<T, TSearch, TInsert, TUpdate>> logger)
+        public BaseCRUDController(IBaseCRUDRepository<T, TSearch, TInsert, TUpdate> repository)
         {
             _repository = repository;
-            _logger = logger;
         }
 
         [HttpPost]
@@ -27,8 +24,7 @@ namespace eHairdresserSalonFare.Api.Controllers
             }
             catch(Exception ex)
             {
-                _logger.LogError(ex, "Post ERROR");
-                return StatusCode(500);
+                return StatusCode(500, ex);
             }
         }
 
@@ -42,8 +38,7 @@ namespace eHairdresserSalonFare.Api.Controllers
             }
             catch(Exception ex)
             {
-                _logger.LogError(ex, "Get ERROR");
-                return StatusCode(500);
+                return StatusCode(500, ex);
             }
         }
 
@@ -57,8 +52,7 @@ namespace eHairdresserSalonFare.Api.Controllers
             }
             catch(Exception ex)
             {
-                _logger.LogError(ex, "GetById ERROR");
-                return StatusCode(500);
+                return StatusCode(500, ex);
             }
         }
 
@@ -72,8 +66,7 @@ namespace eHairdresserSalonFare.Api.Controllers
             }
             catch(Exception ex)
             {
-                _logger.LogError(ex, "Put ERROR");
-                return StatusCode(500);
+                return StatusCode(500, ex);
             }
         }
 
@@ -87,8 +80,7 @@ namespace eHairdresserSalonFare.Api.Controllers
             }
             catch(Exception ex)
             {
-                _logger.LogError(ex, "Delete ERROR");
-                return StatusCode(500);
+                return StatusCode(500, ex);
             }
         }
     }

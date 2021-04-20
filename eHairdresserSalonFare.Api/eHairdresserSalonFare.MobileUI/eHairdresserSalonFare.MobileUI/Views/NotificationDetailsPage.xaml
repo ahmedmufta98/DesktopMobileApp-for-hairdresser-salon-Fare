@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:eHairdresserSalonFare.MobileUI.ViewModels"
+             x:Class="eHairdresserSalonFare.MobileUI.Views.NotificationDetailsPage">
+    <ContentPage.BindingContext>
+        <vm:NotificationDetailsViewModel />
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="FillAndExpand" Padding="10" VerticalOptions="CenterAndExpand">
+            <Label FontSize="Large" HorizontalOptions="Center" Text="Notification details"></Label>
+
+            <Label FontSize="Medium">Notification</Label>
+            <Entry IsReadOnly="True" Text="{Binding Title}" BackgroundColor="LightGray"></Entry>
+            <Entry IsReadOnly="True" Text="{Binding Text}" BackgroundColor="LightGray"></Entry>
+            <DatePicker Date="{Binding NotificationDate}" IsEnabled="False"></DatePicker>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

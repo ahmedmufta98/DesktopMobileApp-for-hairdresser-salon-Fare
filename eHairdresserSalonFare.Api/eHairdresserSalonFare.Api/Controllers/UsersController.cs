@@ -1,9 +1,7 @@
 ﻿using eHairdresserSalonFare.Api.IRepository;
-using eHairdresserSalonFare.Model;
 using eHairdresserSalonFare.Model.Requests.User;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
 using System;
 
 namespace eHairdresserSalonFare.Api.Controllers
@@ -13,12 +11,9 @@ namespace eHairdresserSalonFare.Api.Controllers
     public class UsersController : ControllerBase
     {
         private IUserRepository _repository;
-        private ILogger _logger;
-        public UsersController(IUserRepository repository,
-        ILogger<UsersController> logger)
+        public UsersController(IUserRepository repository)
         {
             _repository = repository;
-            _logger = logger;
         }
 
 
@@ -33,8 +28,7 @@ namespace eHairdresserSalonFare.Api.Controllers
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Post ERROR");
-                return StatusCode(500);
+                return StatusCode(500, ex);
             }
         }
 
@@ -49,8 +43,22 @@ namespace eHairdresserSalonFare.Api.Controllers
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Get ERROR");
-                return StatusCode(500);
+                return StatusCode(500, ex);
+            }
+        }
+
+        [HttpGet]
+        [Route("{userId:int}/payments")]
+        [Authorize]
+        public IActionResult GetPaymentsOfUser(int userId)
+        {
+            try
+            {
+                return Ok(_repository.GetPaymentsOfUser(userId));
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, ex);
             }
         }
 
@@ -65,8 +73,21 @@ namespace eHairdresserSalonFare.Api.Controllers
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "GetById ERROR");
-                return StatusCode(500);
+                return StatusCode(500, ex);
+            }
+        }
+
+        [HttpGet]
+        [Route("username")]
+        public IActionResult GetByUsername([FromQuery] UserLoginRequest request)
+        {
+            try
+            {
+                return Ok(_repository.GetByUsername(request));
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, ex);
             }
         }
 
@@ -81,8 +102,7 @@ namespace eHairdresserSalonFare.Api.Controllers
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Put ERROR");
-                return StatusCode(500);
+                return StatusCode(500, ex);
             }
         }
 
@@ -97,8 +117,7 @@ namespace eHairdresserSalonFare.Api.Controllers
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Delete ERROR");
-                return StatusCode(500);
+                return StatusCode(500, ex);
             }
         }
 
@@ -112,8 +131,7 @@ namespace eHairdresserSalonFare.Api.Controllers
             }
             catch(Exception ex)
             {
-                _logger.LogError(ex, "Login ERROR");
-                return StatusCode(500);
+                return StatusCode(500, ex);
             }
         }
 
@@ -127,8 +145,7 @@ namespace eHairdresserSalonFare.Api.Controllers
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Register ERROR");
-                return StatusCode(500);
+                return StatusCode(500, ex);
             }
         }
     }

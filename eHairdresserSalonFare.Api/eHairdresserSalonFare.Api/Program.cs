@@ -7,6 +7,9 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using eHairdresserSalonFare.Api.Helper;
+using eHairdresserSalonFareBugojno.DBContext;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace eHairdresserSalonFare.Api
 {

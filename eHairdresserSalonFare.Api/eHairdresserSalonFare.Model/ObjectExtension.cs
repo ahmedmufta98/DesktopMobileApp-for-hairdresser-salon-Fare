@@ -6,7 +6,7 @@ using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
 
-namespace eDrivingSchool.Model
+namespace eHairdresserSalonFare.Model
 {
     public static class ObjectExtension
     {

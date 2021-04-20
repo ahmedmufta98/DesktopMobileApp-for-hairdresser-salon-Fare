@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:eHairdresserSalonFare.MobileUI.ViewModels"
+             x:Class="eHairdresserSalonFare.MobileUI.Views.ForumPage">
+    <ContentPage.BindingContext>
+        <vm:ForumViewModel />
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="FillAndExpand" Padding="10" VerticalOptions="CenterAndExpand">
+            <StackLayout>
+                <Label FontSize="Large" HorizontalOptions="Center" Text="Forum"></Label>
+
+                <ListView ItemsSource="{Binding _comments}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Vertical" Grid.Row="1">
+
+                                <Label Text="{Binding Date}" 
+									LineBreakMode="NoWrap" 
+									Style="{DynamicResource ListItemTextStyle}" 
+									FontSize="16" />
+
+                                <Label Text="{Binding Text}" 
+									LineBreakMode="NoWrap" 
+									Style="{DynamicResource ListItemTextStyle}" 
+									FontSize="16" />
+
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+
+            <StackLayout>
+                <Label FontSize="Large" HorizontalOptions="Center" Text="Add comment"></Label>
+
+                <Label Text="Comment text:"></Label>
+                <Entry Text="{Binding Text}" BackgroundColor="LightGray"></Entry>
+
+                <Button Margin="0,30,0,0" Command="{Binding CommentCommand}" Text="Add anonymous comment" HorizontalOptions="Center" Font="17" BackgroundColor="DodgerBlue" TextColor="White"></Button>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
