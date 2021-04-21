@@ -55,10 +55,10 @@
             this.listOfNotificationsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.reportsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mostSalesHairstyleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mostSuccessfulHairdresserToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
-            this.mostSuccessfulHairdresserToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip.SuspendLayout();
             this.statusStrip.SuspendLayout();
             this.SuspendLayout();
@@ -217,8 +217,9 @@
             // listOfBookingsToolStripMenuItem
             // 
             this.listOfBookingsToolStripMenuItem.Name = "listOfBookingsToolStripMenuItem";
-            this.listOfBookingsToolStripMenuItem.Size = new System.Drawing.Size(189, 26);
+            this.listOfBookingsToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
             this.listOfBookingsToolStripMenuItem.Text = "List of bookings";
+            this.listOfBookingsToolStripMenuItem.Click += new System.EventHandler(this.ListOfBookingsToolStripMenuItem_Click);
             // 
             // paymentsToolStripMenuItem
             // 
@@ -274,6 +275,13 @@
             this.mostSalesHairstyleToolStripMenuItem.Text = "Most sales hairstyle";
             this.mostSalesHairstyleToolStripMenuItem.Click += new System.EventHandler(this.MostSalesHairstyleToolStripMenuItem_Click);
             // 
+            // mostSuccessfulHairdresserToolStripMenuItem
+            // 
+            this.mostSuccessfulHairdresserToolStripMenuItem.Name = "mostSuccessfulHairdresserToolStripMenuItem";
+            this.mostSuccessfulHairdresserToolStripMenuItem.Size = new System.Drawing.Size(262, 26);
+            this.mostSuccessfulHairdresserToolStripMenuItem.Text = "Most successful hairdresser";
+            this.mostSuccessfulHairdresserToolStripMenuItem.Click += new System.EventHandler(this.MostSuccessfulHairdresserToolStripMenuItem_Click);
+            // 
             // statusStrip
             // 
             this.statusStrip.ImageScalingSize = new System.Drawing.Size(20, 20);
@@ -291,13 +299,6 @@
             this.toolStripStatusLabel.Name = "toolStripStatusLabel";
             this.toolStripStatusLabel.Size = new System.Drawing.Size(49, 20);
             this.toolStripStatusLabel.Text = "Status";
-            // 
-            // mostSuccessfulHairdresserToolStripMenuItem
-            // 
-            this.mostSuccessfulHairdresserToolStripMenuItem.Name = "mostSuccessfulHairdresserToolStripMenuItem";
-            this.mostSuccessfulHairdresserToolStripMenuItem.Size = new System.Drawing.Size(262, 26);
-            this.mostSuccessfulHairdresserToolStripMenuItem.Text = "Most successful hairdresser";
-            this.mostSuccessfulHairdresserToolStripMenuItem.Click += new System.EventHandler(this.MostSuccessfulHairdresserToolStripMenuItem_Click);
             // 
             // frmMain
             // 

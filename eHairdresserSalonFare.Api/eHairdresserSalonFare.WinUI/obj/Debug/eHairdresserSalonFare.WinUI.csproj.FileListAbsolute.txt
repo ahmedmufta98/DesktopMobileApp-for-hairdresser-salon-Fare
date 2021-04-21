@@ -46,3 +46,4 @@ C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresse
 C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.WinUI\bin\Debug\DocumentFormat.OpenXml.xml
 C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.WinUI\bin\Debug\ExcelNumberFormat.xml
 C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.WinUI\obj\Debug\eHairdresserSalonFare.WinUI.Reports.rptHairdresserMostEarnedMoney.resources
+C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.WinUI\obj\Debug\eHairdresserSalonFare.WinUI.Forms.Booking.frmBookingData.resources

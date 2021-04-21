@@ -27,6 +27,7 @@ namespace eHairdresserSalonFare.WinUI.Reports
             cmbHairdresser.DisplayMember = "Fullname";
             cmbHairdresser.ValueMember = "Id";
         }
+
         private async void RptHairdresserMostEarnedMoney_Load(object sender, EventArgs e)
         {
             dgvData.AutoGenerateColumns = false;

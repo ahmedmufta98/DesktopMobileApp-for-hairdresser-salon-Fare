@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using eHairdresserSalonFare.Model.DTO;
+using System.Collections.Generic;
 
 namespace eHairdresserSalonFare.Api.IRepository
 {

@@ -91,6 +91,12 @@
     <Compile Include="Forms\Associate\frmAssociateData.Designer.cs">
       <DependentUpon>frmAssociateData.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\Booking\frmBookingData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Booking\frmBookingData.Designer.cs">
+      <DependentUpon>frmBookingData.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\Client\frmClientsData.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -194,6 +200,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Associate\frmAssociateData.resx">
       <DependentUpon>frmAssociateData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Booking\frmBookingData.resx">
+      <DependentUpon>frmBookingData.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Client\frmClientsData.resx">
       <DependentUpon>frmClientsData.cs</DependentUpon>

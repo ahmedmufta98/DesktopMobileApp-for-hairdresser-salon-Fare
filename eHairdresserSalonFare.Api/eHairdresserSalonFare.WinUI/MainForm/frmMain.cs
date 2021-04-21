@@ -1,4 +1,5 @@
 ﻿using eHairdresserSalonFare.WinUI.Forms.Associate;
+using eHairdresserSalonFare.WinUI.Forms.Booking;
 using eHairdresserSalonFare.WinUI.Forms.Client;
 using eHairdresserSalonFare.WinUI.Forms.Hairdresser;
 using eHairdresserSalonFare.WinUI.Forms.HairdresserSalon;
@@ -194,6 +195,12 @@ namespace eHairdresserSalonFare.WinUI.MainForm
         {
             rptHairdresserMostEarnedMoney rpt = new rptHairdresserMostEarnedMoney();
             rpt.Show();
+        }
+
+        private void ListOfBookingsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmBookingData frm = new frmBookingData();
+            frm.Show();
         }
     }
 }

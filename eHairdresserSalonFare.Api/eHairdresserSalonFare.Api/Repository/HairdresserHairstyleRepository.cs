@@ -1,9 +1,12 @@
 ﻿using AutoMapper;
 using eHairdresserSalonFare.Api.IRepository;
+using eHairdresserSalonFare.Model.DTO;
 using eHairdresserSalonFareBugojno.Database;
 using eHairdresserSalonFareBugojno.DBContext;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
+using System.Data;
+using System.Data.SqlClient;
 using System.Linq;
 
 namespace eHairdresserSalonFare.Api.Repository

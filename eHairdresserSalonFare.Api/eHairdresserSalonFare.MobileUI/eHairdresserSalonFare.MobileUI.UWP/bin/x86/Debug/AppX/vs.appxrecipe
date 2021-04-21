@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-04-18T22:35:20.855</Modified>
+      <Modified>2021-04-21T20:47:40.961</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\bin\x86\Debug\eHairdresserSalonFare.MobileUI.UWP.exe">
       <PackagePath>entrypoint\eHairdresserSalonFare.MobileUI.UWP.exe</PackagePath>
-      <Modified>2021-04-18T22:35:19.699</Modified>
+      <Modified>2021-04-21T20:47:28.948</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ZZO5\.nuget\packages\flurl\3.0.1\lib\netstandard2.0\Flurl.dll">
       <PackagePath>Flurl.dll</PackagePath>
@@ -736,11 +736,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI\bin\Debug\netstandard2.0\eHairdresserSalonFare.MobileUI.dll">
       <PackagePath>eHairdresserSalonFare.MobileUI.dll</PackagePath>
-      <Modified>2021-04-18T22:35:12.614</Modified>
+      <Modified>2021-04-21T20:47:09.611</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI\bin\Debug\netstandard2.0\eHairdresserSalonFare.Model.dll">
       <PackagePath>eHairdresserSalonFare.Model.dll</PackagePath>
-      <Modified>2021-04-18T22:25:03.270</Modified>
+      <Modified>2021-04-21T20:47:06.616</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ZZO5\.nuget\packages\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
@@ -915,11 +915,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-04-18T22:35:19.479</Modified>
+      <Modified>2021-04-21T20:47:27.659</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2021-04-18T22:35:19.482</Modified>
+      <Modified>2021-04-21T20:47:27.659</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17763.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -935,7 +935,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\bin\x86\Debug\Core\eHairdresserSalonFare.MobileUI.UWP.exe">
       <PackagePath>eHairdresserSalonFare.MobileUI.UWP.exe</PackagePath>
-      <Modified>2021-04-18T22:35:20.847</Modified>
+      <Modified>2021-04-21T20:47:40.863</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
