@@ -1,0 +1,54 @@
+C:\Users\ZZO5\Desktop\MobileAndDesktopAppFare\eHairdresserSalonFare.Api\eHairdresserSalonFare.Api\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\ZZO5\Desktop\MobileAndDesktopAppFare\eHairdresserSalonFare.Api\eHairdresserSalonFare.Api\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\ZZO5\Desktop\MobileAndDesktopAppFare\eHairdresserSalonFare.Api\eHairdresserSalonFare.Api\bin\Debug\netcoreapp2.2\eHairdresserSalonFare.Api.deps.json
+C:\Users\ZZO5\Desktop\MobileAndDesktopAppFare\eHairdresserSalonFare.Api\eHairdresserSalonFare.Api\bin\Debug\netcoreapp2.2\eHairdresserSalonFare.Api.runtimeconfig.json
+C:\Users\ZZO5\Desktop\MobileAndDesktopAppFare\eHairdresserSalonFare.Api\eHairdresserSalonFare.Api\bin\Debug\netcoreapp2.2\eHairdresserSalonFare.Api.runtimeconfig.dev.json
+C:\Users\ZZO5\Desktop\MobileAndDesktopAppFare\eHairdresserSalonFare.Api\eHairdresserSalonFare.Api\bin\Debug\netcoreapp2.2\eHairdresserSalonFare.Api.dll
+C:\Users\ZZO5\Desktop\MobileAndDesktopAppFare\eHairdresserSalonFare.Api\eHairdresserSalonFare.Api\bin\Debug\netcoreapp2.2\eHairdresserSalonFare.Api.pdb
+C:\Users\ZZO5\Desktop\MobileAndDesktopAppFare\eHairdresserSalonFare.Api\eHairdresserSalonFare.Api\obj\Debug\netcoreapp2.2\eHairdresserSalonFare.Api.csprojAssemblyReference.cache
+C:\Users\ZZO5\Desktop\MobileAndDesktopAppFare\eHairdresserSalonFare.Api\eHairdresserSalonFare.Api\obj\Debug\netcoreapp2.2\eHairdresserSalonFare.Api.AssemblyInfoInputs.cache
+C:\Users\ZZO5\Desktop\MobileAndDesktopAppFare\eHairdresserSalonFare.Api\eHairdresserSalonFare.Api\obj\Debug\netcoreapp2.2\eHairdresserSalonFare.Api.AssemblyInfo.cs
+C:\Users\ZZO5\Desktop\MobileAndDesktopAppFare\eHairdresserSalonFare.Api\eHairdresserSalonFare.Api\obj\Debug\netcoreapp2.2\eHairdresserSalonFare.Api.csproj.CoreCompileInputs.cache
+C:\Users\ZZO5\Desktop\MobileAndDesktopAppFare\eHairdresserSalonFare.Api\eHairdresserSalonFare.Api\obj\Debug\netcoreapp2.2\eHairdresserSalonFare.Api.RazorAssemblyInfo.cache
+C:\Users\ZZO5\Desktop\MobileAndDesktopAppFare\eHairdresserSalonFare.Api\eHairdresserSalonFare.Api\obj\Debug\netcoreapp2.2\eHairdresserSalonFare.Api.RazorAssemblyInfo.cs
+C:\Users\ZZO5\Desktop\MobileAndDesktopAppFare\eHairdresserSalonFare.Api\eHairdresserSalonFare.Api\obj\Debug\netcoreapp2.2\eHairdresserSalonFare.Api.RazorTargetAssemblyInfo.cache
+C:\Users\ZZO5\Desktop\MobileAndDesktopAppFare\eHairdresserSalonFare.Api\eHairdresserSalonFare.Api\obj\Debug\netcoreapp2.2\eHairdresserSalonFare.Api.dll
+C:\Users\ZZO5\Desktop\MobileAndDesktopAppFare\eHairdresserSalonFare.Api\eHairdresserSalonFare.Api\obj\Debug\netcoreapp2.2\eHairdresserSalonFare.Api.pdb
+C:\Users\ZZO5\Desktop\MobileAndDesktopAppFare\eHairdresserSalonFare.Api\eHairdresserSalonFare.Api\obj\Debug\netcoreapp2.2\eHairdresserSalonFare.Api.genruntimeconfig.cache
+C:\Users\ZZO5\Desktop\MobileAndDesktopAppFare\eHairdresserSalonFare.Api\eHairdresserSalonFare.Api\bin\Debug\netcoreapp2.2\eHairdresserSalonFare.Model.dll
+C:\Users\ZZO5\Desktop\MobileAndDesktopAppFare\eHairdresserSalonFare.Api\eHairdresserSalonFare.Api\bin\Debug\netcoreapp2.2\eHairdresserSalonFare.Model.pdb
+C:\Users\ZZO5\Desktop\MobileAndDesktopAppFare\eHairdresserSalonFare.Api\eHairdresserSalonFare.Api\obj\Debug\netcoreapp2.2\eHairdresserSalonFare.Api.csproj.CopyComplete
+C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.Api\bin\Debug\netcoreapp2.2\eHairdresserSalonFare.Api.deps.json
+C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.Api\bin\Debug\netcoreapp2.2\eHairdresserSalonFare.Api.runtimeconfig.json
+C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.Api\bin\Debug\netcoreapp2.2\eHairdresserSalonFare.Api.runtimeconfig.dev.json
+C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.Api\bin\Debug\netcoreapp2.2\eHairdresserSalonFare.Api.dll
+C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.Api\bin\Debug\netcoreapp2.2\eHairdresserSalonFare.Api.pdb
+C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.Api\bin\Debug\netcoreapp2.2\eHairdresserSalonFare.Model.dll
+C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.Api\bin\Debug\netcoreapp2.2\eHairdresserSalonFare.Model.pdb
+C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.Api\obj\Debug\netcoreapp2.2\eHairdresserSalonFare.Api.csprojAssemblyReference.cache
+C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.Api\obj\Debug\netcoreapp2.2\eHairdresserSalonFare.Api.csproj.CoreCompileInputs.cache
+C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.Api\obj\Debug\netcoreapp2.2\eHairdresserSalonFare.Api.RazorAssemblyInfo.cache
+C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.Api\obj\Debug\netcoreapp2.2\eHairdresserSalonFare.Api.RazorAssemblyInfo.cs
+C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.Api\obj\Debug\netcoreapp2.2\eHairdresserSalonFare.Api.AssemblyInfoInputs.cache
+C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.Api\obj\Debug\netcoreapp2.2\eHairdresserSalonFare.Api.AssemblyInfo.cs
+C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.Api\obj\Debug\netcoreapp2.2\eHairdresserSalonFare.Api.RazorTargetAssemblyInfo.cache
+C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.Api\obj\Debug\netcoreapp2.2\eHairdresserSalonFare.Api.csproj.CopyComplete
+C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.Api\obj\Debug\netcoreapp2.2\eHairdresserSalonFare.Api.dll
+C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.Api\obj\Debug\netcoreapp2.2\eHairdresserSalonFare.Api.pdb
+C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.Api\bin\Debug\netcoreapp2.2\eHairdresserSalonFare.Api.deps.json
+C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.Api\bin\Debug\netcoreapp2.2\eHairdresserSalonFare.Api.runtimeconfig.json
+C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.Api\bin\Debug\netcoreapp2.2\eHairdresserSalonFare.Api.runtimeconfig.dev.json
+C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.Api\bin\Debug\netcoreapp2.2\eHairdresserSalonFare.Api.dll
+C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.Api\bin\Debug\netcoreapp2.2\eHairdresserSalonFare.Api.pdb
+C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.Api\bin\Debug\netcoreapp2.2\eHairdresserSalonFare.Model.dll
+C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.Api\bin\Debug\netcoreapp2.2\eHairdresserSalonFare.Model.pdb
+C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.Api\obj\Debug\netcoreapp2.2\eHairdresserSalonFare.Api.csprojAssemblyReference.cache
+C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.Api\obj\Debug\netcoreapp2.2\eHairdresserSalonFare.Api.csproj.CoreCompileInputs.cache
+C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.Api\obj\Debug\netcoreapp2.2\eHairdresserSalonFare.Api.RazorAssemblyInfo.cache
+C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.Api\obj\Debug\netcoreapp2.2\eHairdresserSalonFare.Api.RazorAssemblyInfo.cs
+C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.Api\obj\Debug\netcoreapp2.2\eHairdresserSalonFare.Api.AssemblyInfoInputs.cache
+C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.Api\obj\Debug\netcoreapp2.2\eHairdresserSalonFare.Api.AssemblyInfo.cs
+C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.Api\obj\Debug\netcoreapp2.2\eHairdresserSalonFare.Api.RazorTargetAssemblyInfo.cache
+C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.Api\obj\Debug\netcoreapp2.2\eHairdresserSalonFare.Api.csproj.CopyComplete
+C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.Api\obj\Debug\netcoreapp2.2\eHairdresserSalonFare.Api.dll
+C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.Api\obj\Debug\netcoreapp2.2\eHairdresserSalonFare.Api.pdb

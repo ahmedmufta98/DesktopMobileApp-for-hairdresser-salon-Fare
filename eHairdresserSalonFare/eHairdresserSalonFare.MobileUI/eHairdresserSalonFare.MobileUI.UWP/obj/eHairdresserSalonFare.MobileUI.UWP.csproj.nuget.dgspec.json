@@ -1,0 +1,223 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ZZO5\\Desktop\\DesktopMobileApp-for-hairdresser-salon-Fare\\eHairdresserSalonFare\\eHairdresserSalonFare.MobileUI\\eHairdresserSalonFare.MobileUI.UWP\\eHairdresserSalonFare.MobileUI.UWP.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ZZO5\\Desktop\\DesktopMobileApp-for-hairdresser-salon-Fare\\eHairdresserSalonFare\\eHairdresserSalonFare.MobileUI\\eHairdresserSalonFare.MobileUI.UWP\\eHairdresserSalonFare.MobileUI.UWP.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ZZO5\\Desktop\\DesktopMobileApp-for-hairdresser-salon-Fare\\eHairdresserSalonFare\\eHairdresserSalonFare.MobileUI\\eHairdresserSalonFare.MobileUI.UWP\\eHairdresserSalonFare.MobileUI.UWP.csproj",
+        "projectName": "eHairdresserSalonFare.MobileUI.UWP",
+        "projectPath": "C:\\Users\\ZZO5\\Desktop\\DesktopMobileApp-for-hairdresser-salon-Fare\\eHairdresserSalonFare\\eHairdresserSalonFare.MobileUI\\eHairdresserSalonFare.MobileUI.UWP\\eHairdresserSalonFare.MobileUI.UWP.csproj",
+        "packagesPath": "C:\\Users\\ZZO5\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ZZO5\\Desktop\\DesktopMobileApp-for-hairdresser-salon-Fare\\eHairdresserSalonFare\\eHairdresserSalonFare.MobileUI\\eHairdresserSalonFare.MobileUI.UWP\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ZZO5\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "uap10.0.16299"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "uap10.0.16299": {
+            "projectReferences": {
+              "C:\\Users\\ZZO5\\Desktop\\DesktopMobileApp-for-hairdresser-salon-Fare\\eHairdresserSalonFare\\eHairdresserSalonFare.MobileUI\\eHairdresserSalonFare.MobileUI\\eHairdresserSalonFare.MobileUI.csproj": {
+                "projectPath": "C:\\Users\\ZZO5\\Desktop\\DesktopMobileApp-for-hairdresser-salon-Fare\\eHairdresserSalonFare\\eHairdresserSalonFare.MobileUI\\eHairdresserSalonFare.MobileUI\\eHairdresserSalonFare.MobileUI.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "uap10.0.16299": {
+          "dependencies": {
+            "Microsoft.NETCore.UniversalWindowsPlatform": {
+              "target": "Package",
+              "version": "[6.1.9, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[3.6.0.264807, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-arm64-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\ZZO5\\Desktop\\DesktopMobileApp-for-hairdresser-salon-Fare\\eHairdresserSalonFare\\eHairdresserSalonFare.MobileUI\\eHairdresserSalonFare.MobileUI\\eHairdresserSalonFare.MobileUI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ZZO5\\Desktop\\DesktopMobileApp-for-hairdresser-salon-Fare\\eHairdresserSalonFare\\eHairdresserSalonFare.MobileUI\\eHairdresserSalonFare.MobileUI\\eHairdresserSalonFare.MobileUI.csproj",
+        "projectName": "eHairdresserSalonFare.MobileUI",
+        "projectPath": "C:\\Users\\ZZO5\\Desktop\\DesktopMobileApp-for-hairdresser-salon-Fare\\eHairdresserSalonFare\\eHairdresserSalonFare.MobileUI\\eHairdresserSalonFare.MobileUI\\eHairdresserSalonFare.MobileUI.csproj",
+        "packagesPath": "C:\\Users\\ZZO5\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ZZO5\\Desktop\\DesktopMobileApp-for-hairdresser-salon-Fare\\eHairdresserSalonFare\\eHairdresserSalonFare.MobileUI\\eHairdresserSalonFare.MobileUI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ZZO5\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\ZZO5\\Desktop\\DesktopMobileApp-for-hairdresser-salon-Fare\\eHairdresserSalonFare\\eHairdresserSalonFare.Model\\eHairdresserSalonFare.Model.csproj": {
+                "projectPath": "C:\\Users\\ZZO5\\Desktop\\DesktopMobileApp-for-hairdresser-salon-Fare\\eHairdresserSalonFare\\eHairdresserSalonFare.Model\\eHairdresserSalonFare.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Flurl": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Flurl.Http": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[3.6.0.264807, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\ZZO5\\Desktop\\DesktopMobileApp-for-hairdresser-salon-Fare\\eHairdresserSalonFare\\eHairdresserSalonFare.Model\\eHairdresserSalonFare.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ZZO5\\Desktop\\DesktopMobileApp-for-hairdresser-salon-Fare\\eHairdresserSalonFare\\eHairdresserSalonFare.Model\\eHairdresserSalonFare.Model.csproj",
+        "projectName": "eHairdresserSalonFare.Model",
+        "projectPath": "C:\\Users\\ZZO5\\Desktop\\DesktopMobileApp-for-hairdresser-salon-Fare\\eHairdresserSalonFare\\eHairdresserSalonFare.Model\\eHairdresserSalonFare.Model.csproj",
+        "packagesPath": "C:\\Users\\ZZO5\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ZZO5\\Desktop\\DesktopMobileApp-for-hairdresser-salon-Fare\\eHairdresserSalonFare\\eHairdresserSalonFare.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ZZO5\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
