@@ -19,7 +19,7 @@
 
                                 <StackLayout Orientation="Vertical" Grid.Row="1">
 
-                                    <Entry Text="{ Binding PaymentDate }" IsReadOnly="True" BackgroundColor="LightGray"></Entry>
+                                    <Label Text="{ Binding PaymentDate }" BackgroundColor="LightGray"></Label>
 
                                 </StackLayout>
                             </StackLayout>

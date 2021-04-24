@@ -40,7 +40,7 @@ namespace eHairdresserSalonFare.WinUI.Reports
                              GROUP BY HR.FirstName + ' ' + HR.LastName
                              ORDER BY 3 DESC";
 
-            SqlConnection conn = new SqlConnection("Server =.; Database = eHairdresserSalonFare; Trusted_Connection = true;");
+            SqlConnection conn = new SqlConnection("Server =localhost,1401; Database = eHairdresserSalonFareDb;User=sa;Password=QWElkj132!;");
             conn.Open();
 
             SqlCommand sqlCmd = new SqlCommand(query, conn);
@@ -75,7 +75,7 @@ namespace eHairdresserSalonFare.WinUI.Reports
                                                  GROUP BY HR.FirstName + ' ' + HR.LastName
                                                  ORDER BY 3 DESC";
 
-                                    SqlConnection conn = new SqlConnection("Server =.; Database = eHairdresserSalonFare; Trusted_Connection = true;");
+                                    SqlConnection conn = new SqlConnection("Server =localhost,1401; Database = eHairdresserSalonFareDb;User=sa;Password=QWElkj132!;");
                                     SqlDataAdapter dataAdapter = new SqlDataAdapter(query, conn);
                                     SqlCommandBuilder commandBuilder = new SqlCommandBuilder(dataAdapter);
                                     DataSet dataSet = new DataSet();
@@ -95,7 +95,7 @@ namespace eHairdresserSalonFare.WinUI.Reports
                                                      GROUP BY HR.FirstName + ' ' + HR.LastName
                                                      ORDER BY 1 ASC";
 
-                                    SqlConnection conn = new SqlConnection("Server =.; Database = eHairdresserSalonFare; Trusted_Connection = true;");
+                                    SqlConnection conn = new SqlConnection("Server =localhost,1401; Database = eHairdresserSalonFareDb;User=sa;Password=QWElkj132!;");
                                     conn.Open();
 
                                     SqlCommand sqlCmd = new SqlCommand(query, conn);
@@ -138,7 +138,7 @@ namespace eHairdresserSalonFare.WinUI.Reports
                              GROUP BY HR.FirstName + ' ' + HR.LastName
                              ORDER BY 1 ASC";
 
-                SqlConnection conn = new SqlConnection("Server =.; Database = eHairdresserSalonFare; Trusted_Connection = true;");
+                SqlConnection conn = new SqlConnection("Server =localhost,1401; Database = eHairdresserSalonFareDb;User=sa;Password=QWElkj132!;");
                 conn.Open();
 
                 SqlCommand sqlCmd = new SqlCommand(query, conn);
@@ -161,7 +161,7 @@ namespace eHairdresserSalonFare.WinUI.Reports
                              GROUP BY HR.FirstName + ' ' + HR.LastName
                              ORDER BY 1 ASC";
 
-                SqlConnection conn = new SqlConnection("Server =.; Database = eHairdresserSalonFare; Trusted_Connection = true;");
+                SqlConnection conn = new SqlConnection("Server =localhost,1401; Database = eHairdresserSalonFareDb;User=sa;Password=QWElkj132!;");
                 conn.Open();
 
                 SqlCommand sqlCmd = new SqlCommand(query, conn);

@@ -10,22 +10,22 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>ec0cc741-fd3e-485c-81be-68815c480690</PackageIdentityName>
     <PackageIdentityPublisher>CN=1e4f468a-7318-490a-843e-ed36a0b7d6b3</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\bin\x86\Debug\eHairdresserSalonFare.MobileUI.UWP.exe">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\bin\x86\Debug\eHairdresserSalonFare.MobileUI.UWP.exe">
       <PackagePath>entrypoint\eHairdresserSalonFare.MobileUI.UWP.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ZZO5\.nuget\packages\flurl\3.0.1\lib\netstandard2.0\Flurl.dll">
@@ -550,10 +550,10 @@
     <AppxPackagedFile Include="C:\Users\ZZO5\.nuget\packages\xamarin.forms\3.6.0.264807\lib\uap10.0\Xamarin.Forms.Xaml.dll">
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI\bin\Debug\netstandard2.0\eHairdresserSalonFare.MobileUI.dll">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI\bin\Debug\netstandard2.0\eHairdresserSalonFare.MobileUI.dll">
       <PackagePath>eHairdresserSalonFare.MobileUI.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI\bin\Debug\netstandard2.0\eHairdresserSalonFare.Model.dll">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI\bin\Debug\netstandard2.0\eHairdresserSalonFare.Model.dll">
       <PackagePath>eHairdresserSalonFare.Model.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ZZO5\.nuget\packages\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
@@ -562,139 +562,139 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.17763.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\logo.jpg">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\logo.jpg">
       <PackagePath>logo.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\LargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\LargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\LargeTile.scale-200.png">
       <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\LargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\SmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\SmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\SmallTile.scale-200.png">
       <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\SmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\Square44x44Logo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\Square44x44Logo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\Square44x44Logo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\StoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\StoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\xamarin_logo.png">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\xamarin_logo.png">
       <PackagePath>xamarin_logo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\add.png">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\add.png">
       <PackagePath>add.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\save.png">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\save.png">
       <PackagePath>save.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\cancel.png">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\cancel.png">
       <PackagePath>cancel.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\bin\x86\Debug\eHairdresserSalonFare.MobileUI.UWP.xr.xml">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\bin\x86\Debug\eHairdresserSalonFare.MobileUI.UWP.xr.xml">
       <PackagePath>eHairdresserSalonFare.MobileUI.UWP.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17763.0\Windows.winmd">
@@ -703,10 +703,10 @@
     <AppxPackagedFile Include="C:\Users\ZZO5\.nuget\packages\xamarin.forms\3.6.0.264807\lib\uap10.0\Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml">
       <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\bin\x86\Debug\Core\eHairdresserSalonFare.MobileUI.UWP.exe">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\bin\x86\Debug\Core\eHairdresserSalonFare.MobileUI.UWP.exe">
       <PackagePath>eHairdresserSalonFare.MobileUI.UWP.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

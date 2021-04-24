@@ -1,7 +1,8 @@
 version: '3'
 services:
 #mssql docker
-  hairdressersalonfare-sql:
+  ehairdressersalonfare-sql:
+    container_name: dbserver
     image: mcr.microsoft.com/mssql/server:2017-latest-ubuntu
     restart: unless-stopped
     environment:
@@ -13,20 +14,21 @@ services:
     networks:
       - hairdressersalonfarenet
 
-  hairdressersalonfare-api:
+  ehairdressersalonfare.api:
     restart: unless-stopped
     build:
       context: .
-    environment:
-      - ConnectionStrings:=Server=hairdressersalonfare-sql,1433;Database=eHairdresserSalonFareDb;User=sa;Password=QWElkj132!;ConnectRetryCount=0
+      dockerfile: eHairdresserSalonFare.Api/Dockerfile
+    #environment:
+    #  - ConnectionStrings:=Server=dbserver,1433;Database=eHairdresserSalonFareDb;User=sa;Password=QWElkj132!;ConnectRetryCount=0
     ports:
-      - 5001:80
+      - 63982:80
     networks:
       - hairdressersalonfarenet      
     links:
-      - hairdressersalonfare-sql
+      - ehairdressersalonfare-sql
     depends_on:
-      - hairdressersalonfare-sql
+      - ehairdressersalonfare-sql
       
 networks:
   hairdressersalonfarenet:

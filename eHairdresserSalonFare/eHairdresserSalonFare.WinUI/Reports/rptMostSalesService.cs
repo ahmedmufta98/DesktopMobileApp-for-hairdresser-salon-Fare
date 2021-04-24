@@ -23,7 +23,7 @@ namespace eHairdresserSalonFare.WinUI.Reports
                               GROUP BY H.HairstyleName
                               ORDER BY 2 ASC";
 
-            SqlConnection conn = new SqlConnection("Server =.; Database = eHairdresserSalonFare; Trusted_Connection = true;");
+            SqlConnection conn = new SqlConnection("Server =localhost,1401; Database = eHairdresserSalonFareDb;User=sa;Password=QWElkj132!;");
             SqlDataAdapter dataAdapter = new SqlDataAdapter(query, conn);
 
             SqlCommandBuilder commandBuilder = new SqlCommandBuilder(dataAdapter);
@@ -51,7 +51,7 @@ namespace eHairdresserSalonFare.WinUI.Reports
                                                   GROUP BY H.HairstyleName
                                                   ORDER BY 2 ASC";
 
-                                SqlConnection conn = new SqlConnection("Server =.; Database = eHairdresserSalonFare; Trusted_Connection = true;");
+                                SqlConnection conn = new SqlConnection("Server =localhost,1401; Database = eHairdresserSalonFareDb;User=sa;Password=QWElkj132!;");
                                 SqlDataAdapter dataAdapter = new SqlDataAdapter(query, conn);
                                 SqlCommandBuilder commandBuilder = new SqlCommandBuilder(dataAdapter);
                                 DataSet ds = new DataSet();

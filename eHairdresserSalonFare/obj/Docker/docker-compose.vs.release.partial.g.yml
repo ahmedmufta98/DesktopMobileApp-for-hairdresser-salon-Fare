@@ -1,4 +1,4 @@
-version: '3.4'
+version: '3'
 
 services:
   ehairdressersalonfare.api:
@@ -7,6 +7,6 @@ services:
     entrypoint: tail -f /dev/null
     labels:
       com.microsoft.visualstudio.debuggee.program: "dotnet"
-      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_ehairdressersalonfare.api$ \"\""
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_ehairdressersalonfare.api$ \"eHairdresserSalonFare.Api.dll\""
       com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
       com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""

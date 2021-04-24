@@ -38,7 +38,7 @@ namespace eHairdresserSalonFare.WinUI.Forms.Booking
                                JOIN Users AS U ON B.UserId=U.Id
                                ORDER BY 1";
 
-            SqlConnection conn = new SqlConnection("Server =.; Database = eHairdresserSalonFare; Trusted_Connection = true;");
+            SqlConnection conn = new SqlConnection("Server =localhost,1401; Database = eHairdresserSalonFareDb;User=sa;Password=QWElkj132!;");
             conn.Open();
 
             SqlCommand sqlCmd = new SqlCommand(query, conn);
@@ -71,7 +71,7 @@ namespace eHairdresserSalonFare.WinUI.Forms.Booking
                                WHERE B.HairdresserId=@hairdresserId
                                ORDER BY 1";
 
-                SqlConnection conn = new SqlConnection("Server =.; Database = eHairdresserSalonFare; Trusted_Connection = true;");
+                SqlConnection conn = new SqlConnection("Server =localhost,1401; Database = eHairdresserSalonFareDb;User=sa;Password=QWElkj132!;");
                 conn.Open();
 
                 SqlCommand sqlCmd = new SqlCommand(query, conn);
@@ -95,7 +95,7 @@ namespace eHairdresserSalonFare.WinUI.Forms.Booking
                                JOIN Users AS U ON B.UserId=U.Id
                                ORDER BY 1";
 
-                SqlConnection conn = new SqlConnection("Server =.; Database = eHairdresserSalonFare; Trusted_Connection = true;");
+                SqlConnection conn = new SqlConnection("Server=localhost,1401; Database = eHairdresserSalonFareDb;User=sa;Password=QWElkj132!;");
                 conn.Open();
 
                 SqlCommand sqlCmd = new SqlCommand(query, conn);

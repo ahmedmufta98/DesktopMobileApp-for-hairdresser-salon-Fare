@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eHairdresserSalonFare.Mobil
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eHairdresserSalonFare.MobileUI", "eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.csproj", "{2929A5EB-13AC-4831-A6EE-755330B51551}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{E6A3098F-9980-49E8-A7CA-D7BA19614321}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,22 @@ Global
 		{2929A5EB-13AC-4831-A6EE-755330B51551}.Release|x64.Build.0 = Release|Any CPU
 		{2929A5EB-13AC-4831-A6EE-755330B51551}.Release|x86.ActiveCfg = Release|Any CPU
 		{2929A5EB-13AC-4831-A6EE-755330B51551}.Release|x86.Build.0 = Release|Any CPU
+		{E6A3098F-9980-49E8-A7CA-D7BA19614321}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6A3098F-9980-49E8-A7CA-D7BA19614321}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6A3098F-9980-49E8-A7CA-D7BA19614321}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{E6A3098F-9980-49E8-A7CA-D7BA19614321}.Debug|ARM.Build.0 = Debug|Any CPU
+		{E6A3098F-9980-49E8-A7CA-D7BA19614321}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{E6A3098F-9980-49E8-A7CA-D7BA19614321}.Debug|x64.Build.0 = Debug|Any CPU
+		{E6A3098F-9980-49E8-A7CA-D7BA19614321}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E6A3098F-9980-49E8-A7CA-D7BA19614321}.Debug|x86.Build.0 = Debug|Any CPU
+		{E6A3098F-9980-49E8-A7CA-D7BA19614321}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6A3098F-9980-49E8-A7CA-D7BA19614321}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6A3098F-9980-49E8-A7CA-D7BA19614321}.Release|ARM.ActiveCfg = Release|Any CPU
+		{E6A3098F-9980-49E8-A7CA-D7BA19614321}.Release|ARM.Build.0 = Release|Any CPU
+		{E6A3098F-9980-49E8-A7CA-D7BA19614321}.Release|x64.ActiveCfg = Release|Any CPU
+		{E6A3098F-9980-49E8-A7CA-D7BA19614321}.Release|x64.Build.0 = Release|Any CPU
+		{E6A3098F-9980-49E8-A7CA-D7BA19614321}.Release|x86.ActiveCfg = Release|Any CPU
+		{E6A3098F-9980-49E8-A7CA-D7BA19614321}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

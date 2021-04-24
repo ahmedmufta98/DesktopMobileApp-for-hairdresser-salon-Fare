@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>ec0cc741-fd3e-485c-81be-68815c480690</PackageIdentityName>
     <PackageIdentityPublisher>CN=1e4f468a-7318-490a-843e-ed36a0b7d6b3</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\bin\x86\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>D51B4F2BA3D990F3388A24724E92CA8100619DE386E9DFFE4079E41996322310</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>61a4090c-8804-424e-9cc8-cb602c0699e6_1.0.0.0_x86__pb04q26z0c8xc</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>61a4090c-8804-424e-9cc8-cb602c0699e6_pb04q26z0c8xc!App</RegisteredUserModeAppID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-04-21T20:47:40.961</Modified>
+      <Modified>2021-04-24T22:35:57.460</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\bin\x86\Debug\eHairdresserSalonFare.MobileUI.UWP.exe">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\bin\x86\Debug\eHairdresserSalonFare.MobileUI.UWP.exe">
       <PackagePath>entrypoint\eHairdresserSalonFare.MobileUI.UWP.exe</PackagePath>
-      <Modified>2021-04-21T20:47:28.948</Modified>
+      <Modified>2021-04-24T22:35:55.588</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ZZO5\.nuget\packages\flurl\3.0.1\lib\netstandard2.0\Flurl.dll">
       <PackagePath>Flurl.dll</PackagePath>
@@ -734,13 +734,13 @@
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
       <Modified>2019-03-19T01:10:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI\bin\Debug\netstandard2.0\eHairdresserSalonFare.MobileUI.dll">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI\bin\Debug\netstandard2.0\eHairdresserSalonFare.MobileUI.dll">
       <PackagePath>eHairdresserSalonFare.MobileUI.dll</PackagePath>
-      <Modified>2021-04-21T20:47:09.611</Modified>
+      <Modified>2021-04-24T22:35:47.302</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI\bin\Debug\netstandard2.0\eHairdresserSalonFare.Model.dll">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI\bin\Debug\netstandard2.0\eHairdresserSalonFare.Model.dll">
       <PackagePath>eHairdresserSalonFare.Model.dll</PackagePath>
-      <Modified>2021-04-21T20:47:06.616</Modified>
+      <Modified>2021-04-24T16:28:09.349</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ZZO5\.nuget\packages\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
@@ -750,176 +750,176 @@
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2018-10-23T00:33:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\logo.jpg">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\logo.jpg">
       <PackagePath>logo.jpg</PackagePath>
-      <Modified>2021-04-18T14:47:52.062</Modified>
+      <Modified>2021-04-24T16:27:13.882</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2021-03-01T09:49:34.855</Modified>
+      <Modified>2021-04-24T16:27:12.706</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\LargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-03-01T09:49:34.217</Modified>
+      <Modified>2021-04-24T16:27:12.669</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\LargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\LargeTile.scale-200.png">
       <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-03-01T09:49:34.235</Modified>
+      <Modified>2021-04-24T16:27:12.670</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\LargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-03-01T09:49:34.366</Modified>
+      <Modified>2021-04-24T16:27:12.672</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\SmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-03-01T09:49:34.368</Modified>
+      <Modified>2021-04-24T16:27:12.673</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\SmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\SmallTile.scale-200.png">
       <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-03-01T09:49:34.377</Modified>
+      <Modified>2021-04-24T16:27:12.674</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\SmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-03-01T09:49:34.379</Modified>
+      <Modified>2021-04-24T16:27:12.675</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-03-01T09:49:34.382</Modified>
+      <Modified>2021-04-24T16:27:12.677</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-03-01T09:49:34.391</Modified>
+      <Modified>2021-04-24T16:27:12.678</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-03-01T09:49:34.395</Modified>
+      <Modified>2021-04-24T16:27:12.679</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-03-01T09:49:34.531</Modified>
+      <Modified>2021-04-24T16:27:12.680</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-03-01T09:49:34.535</Modified>
+      <Modified>2021-04-24T16:27:12.682</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-03-01T09:49:34.539</Modified>
+      <Modified>2021-04-24T16:27:12.683</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-03-01T09:49:34.543</Modified>
+      <Modified>2021-04-24T16:27:12.684</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-03-01T09:49:34.546</Modified>
+      <Modified>2021-04-24T16:27:12.685</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-03-01T09:49:34.550</Modified>
+      <Modified>2021-04-24T16:27:12.686</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-03-01T09:49:34.553</Modified>
+      <Modified>2021-04-24T16:27:12.687</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-03-01T09:49:34.556</Modified>
+      <Modified>2021-04-24T16:27:12.689</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-03-01T09:49:34.691</Modified>
+      <Modified>2021-04-24T16:27:12.690</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\Square44x44Logo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-03-01T09:49:34.693</Modified>
+      <Modified>2021-04-24T16:27:12.691</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\Square44x44Logo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-03-01T09:49:34.697</Modified>
+      <Modified>2021-04-24T16:27:12.692</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\Square44x44Logo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-03-01T09:49:34.702</Modified>
+      <Modified>2021-04-24T16:27:12.693</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-03-01T09:49:34.710</Modified>
+      <Modified>2021-04-24T16:27:12.695</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\StoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-03-01T09:49:34.714</Modified>
+      <Modified>2021-04-24T16:27:12.696</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\StoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-03-01T09:49:34.717</Modified>
+      <Modified>2021-04-24T16:27:12.698</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-03-01T09:49:34.840</Modified>
+      <Modified>2021-04-24T16:27:12.698</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-03-01T09:49:34.845</Modified>
+      <Modified>2021-04-24T16:27:12.700</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-03-01T09:49:34.849</Modified>
+      <Modified>2021-04-24T16:27:12.701</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\xamarin_logo.png">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\xamarin_logo.png">
       <PackagePath>xamarin_logo.png</PackagePath>
-      <Modified>2021-03-01T09:49:35.659</Modified>
+      <Modified>2021-04-24T16:27:14.080</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\add.png">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\add.png">
       <PackagePath>add.png</PackagePath>
-      <Modified>2021-03-01T09:49:35.403</Modified>
+      <Modified>2021-04-24T16:27:12.707</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\save.png">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\save.png">
       <PackagePath>save.png</PackagePath>
-      <Modified>2021-03-01T09:49:35.655</Modified>
+      <Modified>2021-04-24T16:27:14.079</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\cancel.png">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\cancel.png">
       <PackagePath>cancel.png</PackagePath>
-      <Modified>2021-03-01T09:49:35.405</Modified>
+      <Modified>2021-04-24T16:27:13.880</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\bin\x86\Debug\eHairdresserSalonFare.MobileUI.UWP.xr.xml">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\bin\x86\Debug\eHairdresserSalonFare.MobileUI.UWP.xr.xml">
       <PackagePath>eHairdresserSalonFare.MobileUI.UWP.xr.xml</PackagePath>
-      <Modified>2021-03-01T10:41:04.727</Modified>
+      <Modified>2021-04-24T16:27:14.061</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-04-21T20:47:27.659</Modified>
+      <Modified>2021-04-24T22:35:55.143</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2021-04-21T20:47:27.659</Modified>
+      <Modified>2021-04-24T22:35:55.144</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17763.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -929,13 +929,13 @@
       <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
       <Modified>2019-03-19T01:10:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-04-18T14:49:14.262</Modified>
+      <Modified>2021-04-24T19:31:21.953</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\bin\x86\Debug\Core\eHairdresserSalonFare.MobileUI.UWP.exe">
+    <AppxPackagedFile Include="C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare\eHairdresserSalonFare.MobileUI\eHairdresserSalonFare.MobileUI.UWP\bin\x86\Debug\Core\eHairdresserSalonFare.MobileUI.UWP.exe">
       <PackagePath>eHairdresserSalonFare.MobileUI.UWP.exe</PackagePath>
-      <Modified>2021-04-21T20:47:40.863</Modified>
+      <Modified>2021-04-24T22:35:57.452</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

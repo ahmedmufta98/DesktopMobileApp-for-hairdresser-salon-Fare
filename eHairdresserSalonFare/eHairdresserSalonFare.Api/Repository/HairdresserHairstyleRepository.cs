@@ -1,12 +1,9 @@
 ﻿using AutoMapper;
 using eHairdresserSalonFare.Api.IRepository;
-using eHairdresserSalonFare.Model.DTO;
 using eHairdresserSalonFareBugojno.Database;
 using eHairdresserSalonFareBugojno.DBContext;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
-using System.Data;
-using System.Data.SqlClient;
 using System.Linq;
 
 namespace eHairdresserSalonFare.Api.Repository
@@ -24,8 +21,7 @@ namespace eHairdresserSalonFare.Api.Repository
 
         public List<Model.Hairdresser> FindHairdressersForRating(int clientId)
         {
-            List<Hairdresser> _hairdressersForRating = _context.Hairdressers.Where(h => h.Booking.UserId == clientId)
-                                                                            .Include(h => h.Booking).ToList();
+            List<Hairdresser> _hairdressersForRating = _context.Hairdressers.Where(h => h.Booking.UserId == clientId).Distinct().ToList();
 
             if(_hairdressersForRating.Count>0)
                 return _mapper.Map<List<Model.Hairdresser>>(_hairdressersForRating);

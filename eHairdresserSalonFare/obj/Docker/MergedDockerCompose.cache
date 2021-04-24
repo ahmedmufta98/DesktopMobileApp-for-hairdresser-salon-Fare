@@ -1,26 +1,36 @@
+networks:
+  hairdressersalonfarenet:
+    driver: bridge
 services:
+  ehairdressersalonfare-sql:
+    container_name: dbserver
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_PID: Enterprise
+      SA_PASSWORD: QWElkj132!
+    image: mcr.microsoft.com/mssql/server:2017-latest-ubuntu
+    networks:
+      hairdressersalonfarenet: {}
+    ports:
+    - published: 1401
+      target: 1433
+    restart: unless-stopped
   ehairdressersalonfare.api:
     build:
-      context: C:\Users\ZZO5\Desktop\Seminarski rad\proba\eHairdresserSalonFare.Api
+      context: C:\Users\ZZO5\Desktop\DesktopMobileApp-for-hairdresser-salon-Fare\eHairdresserSalonFare
       dockerfile: eHairdresserSalonFare.Api/Dockerfile
-    container_name: api
     depends_on:
-      mssqldb:
+      ehairdressersalonfare-sql:
         condition: service_started
     environment:
       ASPNETCORE_ENVIRONMENT: Development
-    image: ehairdressersalonfareapi
+    links:
+    - ehairdressersalonfare-sql
+    networks:
+      hairdressersalonfarenet: {}
     ports:
     - published: 63982
       target: 80
     - target: 80
-  mssqldb:
-    container_name: dbserver
-    environment:
-      ACCEPT_EULA: "Y"
-      MSSQL_SA_Password: Admin1234!
-    image: mcr.microsoft.com/mssql/server
-    ports:
-    - published: 11433
-      target: 1433
-version: '3.4'
+    restart: unless-stopped
+version: '3'
